@@ -1,0 +1,13 @@
+def main():
+    num = input("Enter a number : ")
+    sum = 0
+    i = 0
+
+    while i < len(num):
+        sum = sum + int(num[i])
+        i = i + 1
+        
+    print("Sum of digits in number is : ", sum )
+
+if __name__ == "__main__":
+    main()

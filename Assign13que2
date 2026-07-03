@@ -1,0 +1,11 @@
+def main():
+    r = float(input("Enter radius : "))
+    area = 0 
+
+    area = r * r * 3.14
+
+    print("Area of circle is : ",area)
+
+
+if __name__ == "__main__":
+    main()

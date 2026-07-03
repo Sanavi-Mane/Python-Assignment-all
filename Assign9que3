@@ -1,0 +1,16 @@
+def Square(num):
+    ans=0
+    ans= num * num
+    return ans
+    
+def main():
+    no= int(input("Enter a number"))
+
+    ret = Square(no)
+
+    print("Square is ", ret)
+
+
+if __name__ == "__main__":
+    main()
+    

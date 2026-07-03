@@ -1,0 +1,17 @@
+def main():
+    num = int(input("Enter a number : "))
+
+    if (num <= 1):
+        print(" is not a  prime number ")
+        return
+
+    else:
+        for i in range(2, num):
+            if num % i == 0:
+                print(" is not a prime number ")
+                return
+            
+        print(" is a prime number")
+
+if __name__ == "__main__":
+    main()

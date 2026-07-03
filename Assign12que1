@@ -1,0 +1,10 @@
+def main():
+    ch = input("Enter a character : ")
+
+    if ch in "aeiouAEIOU":
+        print("vowel")
+    else :
+        print("Consonent")
+
+if __name__ == "__main__":
+    main()

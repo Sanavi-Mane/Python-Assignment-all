@@ -1,0 +1,11 @@
+def main():
+    len = float(input("Enter length of rectangle : "))
+    wid = float(input("Enter width of width : "))
+    area = 0
+
+    area = len * wid
+    print("Area of rectangle : ", area)
+
+
+if __name__ == "__main__":
+    main()

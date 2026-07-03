@@ -1,0 +1,14 @@
+def Cube(num):
+    Ans = 0
+    Ans =num * num* num
+    return Ans
+
+def main():
+    no = int((input("Enter a number :")))
+    ret = Cube(no)
+
+    print("Cube is : ",ret)
+ 
+
+if __name__ == "__main__":
+    main()

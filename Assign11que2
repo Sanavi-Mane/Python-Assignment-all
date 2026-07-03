@@ -1,0 +1,13 @@
+def main():
+
+    num = input("Enter a number : ")
+    count = 0
+
+    for i in num:
+        count = count + 1
+       
+
+    print("Count of digits is : ", count)    
+
+if __name__ == "__main__":
+    main()
