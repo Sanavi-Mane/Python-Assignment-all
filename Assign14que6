@@ -1,0 +1,11 @@
+CheckOdd = lambda num : (num % 2 != 0)
+
+def main():
+    value = int(input("Enter a number : "))
+
+    Ret = CheckOdd(value)
+
+    print(Ret)
+
+if __name__ == "__main__":
+    main()

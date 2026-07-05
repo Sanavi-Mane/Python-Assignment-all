@@ -1,0 +1,11 @@
+CheckEven = lambda num : (num % 2 == 0)
+
+def main():
+    value = int(input("Enter a number : "))
+
+    Ret = CheckEven(value)
+
+    print(Ret)
+
+if __name__ == "__main__":
+    main()

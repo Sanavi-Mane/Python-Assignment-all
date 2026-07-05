@@ -1,0 +1,35 @@
+List = lambda Data : (Data % 2 != 0)
+
+def main():
+
+
+
+    Numbers = []
+    
+    print("Enter 5 Numbers : ")
+
+    no = int(input())
+    Numbers.append(no)
+    
+    no = int(input())
+    Numbers.append(no)
+
+    no = int(input())
+    Numbers.append(no)
+
+    no = int(input())
+    Numbers.append(no)
+    
+    no = int(input())
+    Numbers.append(no)
+    
+    
+    print("Numbers : ",Numbers)
+
+    fdata = list(filter(List,Numbers))
+
+    print("Odd numbers : ", fdata)
+
+
+if __name__ == "__main__":
+    main()

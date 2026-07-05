@@ -1,0 +1,35 @@
+List = lambda Data : Data * Data
+
+def main():
+
+
+
+    Numbers = []
+    
+    print("Enter 5 Numbers : ")
+
+    no = int(input())
+    Numbers.append(no)
+    
+    no = int(input())
+    Numbers.append(no)
+
+    no = int(input())
+    Numbers.append(no)
+
+    no = int(input())
+    Numbers.append(no)
+    
+    no = int(input())
+    Numbers.append(no)
+    
+    
+    print("Numbers : ",Numbers)
+
+    Mdata = list(map(List,Numbers))
+
+    print("Square of numbers : ", Mdata)
+
+
+if __name__ == "__main__":
+    main()

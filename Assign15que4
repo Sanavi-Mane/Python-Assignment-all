@@ -1,0 +1,36 @@
+from functools import reduce
+Addition = lambda No1 , No2 : No1 + No2
+
+def main():
+
+
+
+    List = []
+    
+    print("Enter 5 Numbers : ")
+
+    no = int(input())
+    List.append(no)
+    
+    no = int(input())
+    List.append(no)
+
+    no = int(input())
+    List.append(no)
+
+    no = int(input())
+    List.append(no)
+    
+    no = int(input())
+    List.append(no)
+    
+    
+    print("Addition: ",List)
+
+    rdata = reduce(Addition,List)
+
+    print("Addition of all numbers  : ", rdata)
+
+
+if __name__ == "__main__":
+    main()

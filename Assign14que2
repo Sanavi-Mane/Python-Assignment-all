@@ -1,0 +1,10 @@
+Cube = lambda num : (num *num* num)
+
+def main():
+
+    value = int(input("Enter a number : "))
+
+    print("Cube is : ", Cube(value))
+
+if __name__ == "__main__":
+    main()

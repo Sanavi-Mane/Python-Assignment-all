@@ -1,0 +1,11 @@
+Square = lambda num : (num * num) 
+
+def main():
+
+    value = int(input("Enter a number : "))
+
+    print("Square is ",Square(value))
+
+
+if __name__ == "__main__":
+    main()

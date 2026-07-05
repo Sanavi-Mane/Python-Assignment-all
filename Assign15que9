@@ -1,0 +1,35 @@
+from functools import reduce  
+
+Product = lambda No1, No2: No1 * No2
+
+def main():
+
+    Numbers = []
+    
+    print("Enter 5 Numbers : ")
+
+    no = int(input())
+    Numbers.append(no)
+    
+    no = int(input())
+    Numbers.append(no)
+
+    no = int(input())
+    Numbers.append(no)
+
+    no = int(input())
+    Numbers.append(no)
+    
+    no = int(input())
+    Numbers.append(no)
+    
+    
+    print("Numbers : ",Numbers)
+
+    rdata = reduce(Product, Numbers)
+
+    print("Product ", rdata)
+
+
+if __name__ == "__main__":
+    main()

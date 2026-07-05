@@ -1,0 +1,35 @@
+List = lambda Names : len(Names) > 5 
+
+def main():
+
+
+
+    Numbers = []
+    
+    print("Enter 5 Numbers : ")
+
+    no = (input())
+    Numbers.append(no)
+    
+    no = (input())
+    Numbers.append(no)
+
+    no = (input())
+    Numbers.append(no)
+
+    no = (input())
+    Numbers.append(no)
+    
+    no = (input())
+    Numbers.append(no)
+    
+    
+    print("Strings : ",Numbers)
+
+    fdata = list(filter(List,Numbers))
+
+    print("Strings Longer than 5  : ", fdata)
+
+
+if __name__ == "__main__":
+    main()
